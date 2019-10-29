@@ -1,0 +1,35 @@
+{
+  "name": "exo-nodejs",
+  "version": "1.0.0",
+  "description": "nodejs training",
+  "keywords": [
+    "nodejs, lodash, yargs, chalk"
+  ],
+  "main": "index.js",
+  "homepage": "https://github.com/NadiaPOI/project#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NadiaPOI/project"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=8.16.2"
+  },
+  "author": "Nadia Poi",
+  "contributors": [],
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "denodeify": "^1.2.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "yargs": "^14.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
